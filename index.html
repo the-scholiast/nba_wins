@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NBA Win Totals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-section">
+      <h1>Reigning Champ: Wooj</h1>
+      <div class="update-info">
+        <span id="last-update">Loading...</span>
+        <button id="refresh-btn" onclick="manualRefresh()">Refresh Now</button>
+      </div>
+    </div>
+
+    <div class="players">
+      <div class="player-section">
+        <h2>Justin</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Team</th>
+              <th>W</th>
+              <th>L</th>
+              <th>Games Left</th>
+            </tr>
+          </thead>
+          <tbody id="justin-body"></tbody>
+          <tfoot>
+            <tr class="totals-row">
+              <td colspan="2"><strong>TOTALS</strong></td>
+              <td id="justin-total-wins"><strong>0</strong></td>
+              <td id="justin-total-losses"><strong>0</strong></td>
+              <td id="justin-games-left"><strong>0</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="player-section">
+        <h2>Khalil</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Team</th>
+              <th>W</th>
+              <th>L</th>
+              <th>Games Left</th>
+            </tr>
+          </thead>
+          <tbody id="khalil-body"></tbody>
+          <tfoot>
+            <tr class="totals-row">
+              <td colspan="2"><strong>TOTALS</strong></td>
+              <td id="khalil-total-wins"><strong>0</strong></td>
+              <td id="khalil-total-losses"><strong>0</strong></td>
+              <td id="khalil-games-left"><strong>0</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="player-section">
+        <h2>Champ</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Team</th>
+              <th>W</th>
+              <th>L</th>
+              <th>Games Left</th>
+            </tr>
+          </thead>
+          <tbody id="woojin-body"></tbody>
+          <tfoot>
+            <tr class="totals-row">
+              <td colspan="2"><strong>TOTALS</strong></td>
+              <td id="woojin-total-wins"><strong>0</strong></td>
+              <td id="woojin-total-losses"><strong>0</strong></td>
+              <td id="woojin-games-left"><strong>0</strong></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <div id="loading">Loading standings...</div>
+    <div id="error" style="display: none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
