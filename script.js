@@ -1,40 +1,40 @@
 // Team assignments
 const playerTeams = {
   justin: [
+    "Oklahoma City Thunder",
+    "New York Knicks",
+    "Houston Rockets",
+    "Los Angeles Lakers",
+    "Miami Heat",
+    "Portland Trail Blazers",
+    "Washington Wizards",
+    "LA Clippers",
+    "Sacramento Kings",
+    "Phoenix Suns",
+  ],
+  khalil: [
+    "San Antonio Spurs",
+    "Detroit Pistons",
+    "Denver Nuggets",
+    "Cleveland Cavaliers",
     "Orlando Magic",
     "Chicago Bulls",
     "Milwaukee Bucks",
-    "Sacramento Kings",
     "Dallas Mavericks",
     "Utah Jazz",
-    "Memphis Grizzlies",
     "Golden State Warriors",
-    "Phoenix Suns",
-    "Oklahoma City Thunder"
-  ],
-  khalil: [
-    "New York Knicks",
-    "Boston Celtics",
-    "Toronto Raptors",
-    "Cleveland Cavaliers",
-    "Atlanta Hawks",
-    "Brooklyn Nets",
-    "Indiana Pacers",
-    "New Orleans Pelicans",
-    "LA Clippers",
-    "Minnesota Timberwolves"
   ],
   woojin: [
-    "Detroit Pistons",
+    "Boston Celtics",
     "Philadelphia 76ers",
-    "Miami Heat",
+    "Minnesota Timberwolves",
+    "Toronto Raptors",
+    "Indiana Pacers",
+    "Atlanta Hawks",
     "Charlotte Hornets",
-    "Washington Wizards",
-    "Portland Trail Blazers",
-    "Houston Rockets",
-    "Los Angeles Lakers",
-    "Denver Nuggets",
-    "San Antonio Spurs"
+    "Brooklyn Nets",
+    "New Orleans Pelicans",
+    "Memphis Grizzlies",
   ]
 };
 
